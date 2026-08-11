@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.dynamic_mpd" name="Dynamic MPD Player" version="1.0.0" provider-name="alecl">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="inputstream.adaptive" version="20.3.0" minversion="20.3.0"/>
+    <import addon="script.module.requests" version="2.27.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Dynamic MPD Player with ClearKey DRM</summary>
+    <summary lang="it_IT">Player MPD Dinamico con DRM ClearKey</summary>
+    <description lang="en_GB">Play MPD streams from a dynamic M3U list with inputstream.adaptive support.</description>
+    <description lang="it_IT">Riproduci flussi MPD da una lista M3U dinamica con supporto inputstream.adaptive.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
