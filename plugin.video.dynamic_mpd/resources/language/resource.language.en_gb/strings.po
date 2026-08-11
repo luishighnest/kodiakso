@@ -1,0 +1,14 @@
+msgid ""
+msgstr ""
+
+msgctxt "#30000"
+msgid "General"
+msgstr ""
+
+msgctxt "#30001"
+msgid "M3U Playlist URL"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Please set M3U URL in Add-on Settings."
+msgstr ""
