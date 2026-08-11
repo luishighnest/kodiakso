@@ -15,7 +15,8 @@ def get_string(string_id):
     return ADDON.getLocalizedString(string_id)
 
 def get_m3u_url():
-    return ADDON.getSetting('m3u_url')
+    # L'URL è fissato al file playlist.m3u sul tuo GitHub Pages
+    return "https://luishighnest.github.io/kodiakso/playlist.m3u"
 
 def parse_m3u(content):
     items = []
@@ -60,11 +61,6 @@ def build_url(query):
 
 def list_channels():
     m3u_url = get_m3u_url()
-    
-    if not m3u_url:
-        xbmcgui.Dialog().ok("Dynamic MPD", get_string(30002))
-        xbmcplugin.endOfDirectory(HANDLE)
-        return
         
     try:
         response = requests.get(m3u_url, timeout=10)
