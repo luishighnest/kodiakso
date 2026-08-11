@@ -1,0 +1,8 @@
+#EXTM3U
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|efd7e81b00b456f1867e8e6df6facb8c:d2ea88af4ca8111c5a117e228c847742
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36&Referer=https://www.dazn.com/&Origin=https://www.dazn.com
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v2/eu/image?id=8lykzan5n5zh10y40e8r9l31i_image-header_pIt_1783328165000&quality=80&width=800&height=450" tvg-provider="DAZN" group-title="Eventi", EWC - Dota 2 - Week 2, Day 2 - Stream B
+https://dcb-deit-livedazn.daznedge.net/458crfuzir5o1uf5264w0fybu/web/stream.mpd?channel=3631&outlet=dazn-italy&plang=it&dazn-token=tend%3A1784215515~geo%3AIT~asn%3A13335~path%3A1_1_8d4f2d1873b5757f75084051f5d59a87e2235a443579cdda18f392ee4147b932~ua%3Aeac671692e8576f899308c1032bb55f8~id%3Ab408d624b843~tk3%3A8144b632c76ce4201b206aa6d5f1b1a056f3573b5dc3f6aa5d7cf646206b8396|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36&Referer=https://www.dazn.com/&Origin=https://www.dazn.com
