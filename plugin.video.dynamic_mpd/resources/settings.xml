@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-    <category label="30000">
-        <setting id="m3u_url" type="text" label="30001" default="" />
-    </category>
-</settings>
