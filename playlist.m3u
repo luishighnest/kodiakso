@@ -2,7 +2,6 @@
 
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|efd7e81b00b456f1867e8e6df6facb8c:d2ea88af4ca8111c5a117e228c847742
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36&Referer=https://www.dazn.com/&Origin=https://www.dazn.com
-#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v2/eu/image?id=8lykzan5n5zh10y40e8r9l31i_image-header_pIt_1783328165000&quality=80&width=800&height=450" tvg-provider="DAZN" group-title="Eventi", EWC - Dota 2 - Week 2, Day 2 - Stream B
-https://dcb-deit-livedazn.daznedge.net/458crfuzir5o1uf5264w0fybu/web/stream.mpd?channel=3631&outlet=dazn-italy&plang=it&dazn-token=tend%3A1784215515~geo%3AIT~asn%3A13335~path%3A1_1_8d4f2d1873b5757f75084051f5d59a87e2235a443579cdda18f392ee4147b932~ua%3Aeac671692e8576f899308c1032bb55f8~id%3Ab408d624b843~tk3%3A8144b632c76ce4201b206aa6d5f1b1a056f3573b5dc3f6aa5d7cf646206b8396|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36&Referer=https://www.dazn.com/&Origin=https://www.dazn.com
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|111846235c04786db13f945c4f2d1ec0:b39ac438cd149ca86096e586b1f1669b
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Sky_Sport_Calcio_logo.svg/800px-Sky_Sport_Calcio_logo.svg.png" group-title="Sport", Sky Sport Calcio
+https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1786577738_f~0_g~1_s~0436a14c-b3f8-429a-8ca2-fd743652f38f_u~f67a647e4e553b91b895defd31fe4145d268f61e271cba8420fbe70061a6a88d_k~A_l~60_x~acbf268494c4f02299911aef860e112d/nowitlin2/Content/CMAF_CTR_H1/Live/channel(skysportcalcio)/master_2hr-all.mpd
