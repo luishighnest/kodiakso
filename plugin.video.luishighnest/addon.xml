@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.luishighnest" name="Luishighnest M3U Player" version="1.0.0" provider-name="luishighnest">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Luishighnest M3U Player</summary>
+        <description lang="en_GB">Riproduce una playlist M3U da GitHub.</description>
+        <platform>all</platform>
+    </extension>
+</addon>

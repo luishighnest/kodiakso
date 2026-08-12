@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.luishighnest" name="Luishighnest M3U Player" version="1.0.0" provider-name="luishighnest">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Luishighnest M3U Player</summary>
+        <description lang="en_GB">Riproduce una playlist M3U da GitHub.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.luishighnest" name="Luishighnest Repository" version="1.0.0" provider-name="luishighnest">
+    <extension point="xbmc.addon.repository" name="Luishighnest Repository">
+        <dir>
+            <info compressed="false">https://luishighnest.github.io/kodiakso/addons.xml</info>
+            <checksum>https://luishighnest.github.io/kodiakso/addons.xml.md5</checksum>
+            <datadir zip="true">https://luishighnest.github.io/kodiakso/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Luishighnest Repository</summary>
+        <description>Repository for Luishighnest Kodi addons</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+</addons>
