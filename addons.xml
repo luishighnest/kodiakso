@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 
-<addon id="plugin.video.dynamic_mpd" name="Dynamic MPD Player" version="1.0.0" provider-name="alecl">
+<addon id="plugin.video.dynamic_mpd" name="Dynamic MPD Player" version="1.0.1" provider-name="alecl">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="inputstream.adaptive" version="20.3.0" minversion="20.3.0"/>
